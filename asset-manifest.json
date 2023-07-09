@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/current-sea/static/css/main.3fe8fda3.css",
+    "main.js": "/current-sea/static/js/main.0a4baa60.js",
+    "index.html": "/current-sea/index.html",
+    "main.3fe8fda3.css.map": "/current-sea/static/css/main.3fe8fda3.css.map",
+    "main.0a4baa60.js.map": "/current-sea/static/js/main.0a4baa60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fe8fda3.css",
+    "static/js/main.0a4baa60.js"
+  ]
+}
