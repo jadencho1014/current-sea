@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        "http://data.fixer.io/api/latest?access_key=925a43b77c9b516384cd13fe1c20c473"
+        "https://data.fixer.io/api/latest?access_key=925a43b77c9b516384cd13fe1c20c473"
       )
       .then((response) => {
         setRates(response.data.rates);
