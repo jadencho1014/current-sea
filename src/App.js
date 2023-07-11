@@ -11,13 +11,9 @@ function App() {
   const [rates, setRates] = useState([]);
 
   useEffect(() => {
-    axios
-      .get(
-        "https://data.fixer.io/api/latest?access_key=925a43b77c9b516384cd13fe1c20c473"
-      )
-      .then((response) => {
-        setRates(response.data.rates);
-      });
+    axios.get("https://api.exchangerate.host/latest").then((response) => {
+      setRates(response.data.rates);
+    });
   }, []);
 
   useEffect(() => {
